@@ -1,0 +1,258 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 100%/1.5 "futura-pt-condensed", sans-serif;
+  font-weight:900;
+  background-color:#27B0BA;
+  color:#231F20;
+  padding:0;
+  margin:0;
+}
+
+h1, h2, h3{
+  font-family:"futura-pt-condensed", sans-serif;
+  font-size:2.4em;
+  font-style:normal;
+  font-weight:900;
+  line-height:.875;
+  margin:0;
+  padding:0;
+}
+
+h1 a:link, h1 a:visited{
+  text-decoration:none;
+  color:#231F20;
+}
+
+h1 a span, h2 a span{
+  border:1px solid #231F20;
+  color:#231F20;
+  padding:.2em .4em .2em .4em;
+}
+
+h1 a span:hover, h2 a span:hover{
+  background-color:#231F20;
+  color:#F7F7F7;
+}
+
+h2 a.sold-out span:hover{
+  border:1px solid #231F20;
+  color:#231F20;
+  background-color:transparent;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+.geographic-north-cassette{
+  padding-top:4em;
+  padding-bottom:4em;
+}
+
+.stream{
+  padding-bottom:6em;
+}
+
+.stream h1{
+  padding-bottom:.5em;
+}
+
+.download{
+  padding-bottom:12em;
+}
+
+#logo{
+  position:relative;
+  height:4em;
+  width:6em;
+}
+
+.gn17{
+  padding-bottom:4em;
+}
+
+.gn17 h1{
+  margin-bottom:.25em;
+}
+
+.gn17 h1 span{
+  letter-spacing:-2px;
+}
+
+#logo #circle1 {
+  position:absolute;
+  top:0;
+  left:0;
+  width:4em;
+  height:4em;
+  background:#231F20;
+  -moz-border-radius:2em;
+  -webkit-border-radius:2em;
+  border-radius:2em;
+  clip:rect(0,2em,2em,0);
+}
+
+#logo #circle2 {
+  position:absolute;
+  top:0;
+  left:0;
+  width:4em;
+  height:4em;
+  background:#231F20;
+  -moz-border-radius:2em;
+  -webkit-border-radius:2em;
+  border-radius:2em;
+  clip:rect(0,2em,2em,0);
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -webkit-transform:rotate(180deg); /* Safari and Chrome */
+}
+
+#logo #circle3 {
+  position:absolute;
+  top:0;
+  left:0;
+  width:4em;
+  height:4em;
+  background:#231F20;
+  -moz-border-radius:2em;
+  -webkit-border-radius:2em;
+  border-radius:2em;
+  clip:rect(0,2em,2em,0);
+  transform:rotate(-90deg);
+  -ms-transform:rotate(-90deg); /* IE 9 */
+  -webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+
+#logo #triangle-topright-one {
+  position:absolute;
+  top:0;
+  left:2em;
+  width:0;
+  height:0;
+  border-top:2em solid #231F20;
+  border-left:2em solid transparent;
+  z-index:10;
+}
+
+#logo #triangle-topright-two {
+  position:absolute;
+  top:0;
+  left:4em;
+  width:0;
+  height:0;
+  border-top:2em solid #231F20;
+  border-left:2em solid transparent;
+  z-index:10;
+}
+
+#logo #triangle-topright-three {
+  position:absolute;
+  top:2em;
+  left:4em;
+  width:0;
+  height:0;
+  border-top:2em solid #231F20;
+  border-left:2em solid transparent;
+  z-index:10;
+}
+
+#logo #triangle-topright-four {
+  position:absolute;
+  top:2em;
+  left:2em;
+  width:0;
+  height:0;
+  border-top:2em solid #231F20;
+  border-left:2em solid transparent;
+  z-index:10;
+}
+
+.lotus-plaza{
+  padding-top:15em;
+  padding-bottom:6em;
+}
+
+.buy-cassette-5 h2:first-child{
+  margin-bottom:1em;
+}
+
+/*.buy-cassette-5 h2:last-child{
+  font-size:8em;
+}*/
+
+.buy-cassette-5 h2 sup{
+  color:#231F20;
+  position: relative;
+  top: 5px;
+  font-size: 50%;
+  vertical-align: super;
+}
+
+.overnight-motorcycle-music{
+  padding-top:2em;
+}
+
+.lockett-pundt{
+  padding-bottom:28em;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+@media (max-width: 767px) {
+
+/*}
+ 
+@media (max-width: 480px) {*/
+  body {
+    padding:0;
+    margin:0;
+    font-size:1.875em;
+  }
+
+  h1, h2, h3{
+    text-align:center;
+  }
+
+  h1 a span, h2 a span{
+    border:1px solid #231F20;
+    color:#231F20;
+    padding:.2em 0 .2em 0;
+    display:block;
+    width:100%;
+  }
+
+  .geographic-north-cassette{
+    padding-top:4em;
+    padding-bottom:4em;
+  }
+
+ .stream, .download, .gn17, .lotus-plaza, .buy-cassette-5, .overnight-motorcycle-music, .lockett-pundt{
+    padding-top:0;
+    padding-bottom:4em;
+    margin:0;
+  }
+
+  #logo{
+    margin:0 auto 4em auto;
+  }
+
+  .gn17{
+    text-align:center;
+  }
+
+  .gn17 img{
+    margin:0 auto;
+  }
+}

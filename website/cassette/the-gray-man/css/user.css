@@ -1,0 +1,132 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 100%/1.5 'WindsorW01-LightCondens', Georgia, serif;
+  font-weight:normal;
+  font-style:normal;
+  background-color:#c1cd23;
+  color:#000000;
+  padding:0;
+  margin:0;
+}
+
+html, body{
+  height:100%;
+}
+
+p{
+  font-family:'WindsorW01-LightCondens', Georgia, serif;
+  font-size:3em;
+  font-style:normal;
+  font-weight:normal;
+  line-height:1.2;
+  margin:0;
+  padding:0;
+}
+
+a.buy-cassette:link, a.buy-cassette:visited, a.listen:link, a.listen:visited{
+  color:#000000;
+  line-height: 1;
+  font-size:1em;
+  text-decoration:underline;
+}
+
+a.buy-cassette:hover, a.listen:hover{
+  text-decoration:none;
+}
+
+.quote-space{
+  visibility:hidden;
+}
+
+a.copyright:link, a.copyright:visited{
+  color:#000000;
+  font-size:.6em;
+  text-decoration:none;
+}
+
+.copyright-height{
+  line-height:.75;
+}
+
+.album{
+  margin:40px 0 0 0;
+}
+
+.artist{
+  margin:0 0 40px 0;
+}
+
+.stream{
+  margin:0 0 50px 0;
+}
+
+#logo{
+  width:32px;
+}
+
+.gn-logo{
+  fill:#000000;
+  -webkit-transition: fill .4s ease-in;
+  -moz-transition: fill .4s ease-in;
+  -o-transition: fill .4s ease-in;
+  -ms-transition: fill .4s ease-in;
+  transition: fill .4s ease-in;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+@media (max-width: 767px) {
+  body {
+    font-size:100%;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .container{
+    padding:0;
+    margin:0;
+  }
+
+  .container-fluid, .row {
+    padding:0px;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .container{
+    padding:0;
+    margin:0;
+  }
+
+  .container-fluid, .row {
+    padding:0px;
+  }
+
+  .quote-space{
+    display:none;
+  }
+
+  p{
+    text-align:center;
+  }
+
+}

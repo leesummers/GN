@@ -1,0 +1,304 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 100%/1.5 GroteskSSHOP-Book, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  background-color:#AC7DCD;
+  color:#231F20;
+  padding:0;
+  margin:0;
+}
+
+html, body{
+  height:100%;
+}
+
+h1{
+  font-family:GroteskSSHOP-Book, sans-serif;
+  font-size:4em;
+  font-style:normal;
+  font-weight:normal;
+  line-height:1;
+  margin:0;
+  padding:0;
+}
+
+p{
+  font-family:GroteskSSHOP-Book, sans-serif;
+  font-size:2em;
+  font-style:normal;
+  font-weight:normal;
+  line-height:1;
+  margin:0;
+  padding:0;
+}
+
+h1 a:link, h1 a:visited, h1 a:focus{
+  text-decoration:none;
+  color:#231F20;
+}
+
+h1 a:hover{
+  text-decoration:underline;
+}
+
+a.sold-out{
+  border:1px solid #231F20;
+  color:#231F20;
+  padding: .4em .5em .2em .5em;
+  line-height: 1;
+  font-size:2em;
+  text-align:center;
+}
+
+a.sold-out:hover{
+  border:1px solid #231F20;
+  color:#231F20;
+  padding: .4em .5em .2em .5em;
+  line-height: 1;
+  font-size:2em;
+  text-align:center;
+  text-decoration:none;
+}
+
+a.listen{
+  color:#231F20;
+  text-decoration:underline;
+}
+
+a.listen:link, a.listen:visited{
+  color:#231F20;
+  text-decoration:underline;
+}
+
+a.listen:hover{
+  color:#AC7DCD;
+  text-decoration:none;
+}
+
+.quote-space{
+  visibility:hidden;
+}
+
+.band-name{
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.album-name{
+  padding-bottom:2em;
+}
+
+.track-name{
+  padding-bottom:2em;
+}
+
+a.buy-cassette{
+  border:1px solid #231F20;
+  color:#231F20;
+  padding: .4em .5em .2em .5em;
+  line-height: 1;
+  font-size:2em;
+  text-align:center;
+  text-decoration:none;
+}
+
+a.buy-cassette:hover{
+  background-color:#AC7DCD;
+  border:1px solid #AC7DCD;
+  color:#F7F7F7;
+  text-decoration:none;
+}
+
+div.buy-cassette{
+  padding-bottom:3em;
+}
+
+.price{
+  padding-bottom:2em;
+}
+
+.price h1 sup{
+  color:#231F20;
+  position: relative;
+  top: 0;
+  font-size: 50%;
+  vertical-align: super;
+}
+
+.gn{
+  padding-bottom:4em;
+}
+
+.logo{
+
+}
+
+.sketch-for-winter{
+  padding-top:4em;
+  padding-bottom:3em;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+@media (max-width: 767px) {
+  body {
+    font-size:150%;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .container{
+    padding:0;
+    margin:0;
+  }
+
+  .col-sm-2, .col-sm-12{
+    padding:0;
+  }
+
+  .container-fluid, .row {
+    padding:0px;
+  }
+
+  img.logo{
+    width:10%;
+  }
+
+  div.logo{
+    padding-bottom:4em;
+    padding-left:2em;
+  }
+
+  .band-name{
+    padding-top:2em;
+    padding-bottom:0;
+    padding-left:2em;
+  }
+
+  .album-name{
+    padding-bottom:1em;
+    padding-left:2em;
+  }
+
+  .track-name{
+    padding-bottom:1em;
+    padding-left:2em;
+  }
+  
+  a.buy-cassette{
+    border:1px solid #231F20;
+    color:#231F20;
+    padding: .4em 0 .2em 0;
+    line-height: 1;
+    font-size:2em;
+    display:block;
+    width:100%;
+    text-align:center;
+  }
+  
+  div.buy-cassette{
+    padding-top:2em;
+    padding-bottom:1em;
+    padding-left:2em;
+    padding-right:2em;
+  }
+  .price{
+    padding-bottom:1em;
+    padding-left:2em;
+  }
+
+  .gn{
+    padding-bottom:2em;
+    padding-left:2em;
+  }
+
+  .sketch-for-winter{
+    padding-top:2em;
+    padding-bottom:2em;
+    padding-left:2em;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .container{
+    padding:0;
+    margin:0;
+  }
+
+  .col-sm-2, .col-sm-12, .col-sm-3, .col-md-2{
+    padding:0;
+  }
+
+  .container-fluid, .row {
+    padding:0px;
+  }
+
+  .band-name{
+    padding-top:2em;
+    padding-bottom:0;
+    padding-left:2em;
+  }
+
+  .album-name{
+    padding-bottom:1em;
+    padding-left:2em;
+  }
+
+  .track-name{
+    padding-bottom:1em;
+    padding-left:2em;
+  }
+
+  div.buy-cassette{
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:2em;
+    padding-right:2em;
+  }
+  .price{
+    padding-bottom:1em;
+    padding-left:2em;
+  }
+
+  .gn{
+    padding-bottom:2em;
+    padding-left:2em;
+  }
+
+  .sketch-for-winter{
+    padding-top:2em;
+    padding-bottom:2em;
+    padding-left:2em;
+  }
+
+  img.logo{
+    width:15%;
+  }
+
+  div.logo{
+    padding-bottom:4em;
+    padding-left:2em
+  }
+}
+
+}
