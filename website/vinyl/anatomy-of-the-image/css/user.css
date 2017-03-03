@@ -1,0 +1,113 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 100%/1.5 "futura-pt", Arial, sans-serif;
+  font-weight:500;
+  font-style:normal;
+  background-color:#FFFFFF;
+  color:#000000;
+  padding:40px 0 0 0;
+  margin:0;
+}
+
+html, body{
+  height:100%;
+}
+
+p{
+  font-family:"futura-pt", Arial, sans-serif;
+  font-size:1.8em;
+  font-weight:500;
+  line-height:1.25;
+  margin:0;
+  padding:0;
+  -webkit-transition: color .4s ease-in;
+  -moz-transition: color .4s ease-in;
+  -o-transition: color .4s ease-in;
+  -ms-transition: color .4s ease-in;
+  transition: color .4s ease-in;
+}
+
+p a:link, p a:visited{
+  color:#000000;
+  text-decoration:none;
+  -webkit-transition: color .4s ease-in;
+  -moz-transition: color .4s ease-in;
+  -o-transition: color .4s ease-in;
+  -ms-transition: color .4s ease-in;
+  transition: color .4s ease-in;
+}
+
+p a:hover, p a:active{
+  text-decoration:underline;
+}
+
+.preorder, .watch, .download{
+  padding:60px 0 0 0;
+}
+
+#logo{
+  width:32px;
+  /*margin:17px 0 0 0;*/
+  position: absolute;
+  bottom: 40px;
+}
+
+.gn-logo{
+  fill:#000000;
+  -webkit-transition: fill .4s ease-in;
+  -moz-transition: fill .4s ease-in;
+  -o-transition: fill .4s ease-in;
+  -ms-transition: fill .4s ease-in;
+  transition: fill .4s ease-in;
+}
+
+.quote-space{
+  visibility:hidden;
+}
+
+.letter-spacing{
+  letter-spacing:-2px;
+}
+
+/*#mti_wfs_colophon{
+  display:none !important;
+}*/
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1000px) { 
+  body{
+    font-size:75%;
+  }
+}
+ 
+@media (max-width: 767px) {
+  body{
+    font-size:150%;
+  }
+  .quote-space{
+    display:none;
+  }
+  p{
+    margin-bottom:30px;
+    text-align:left;
+  }
+  #logo{
+    bottom: 40px;
+    right:15px;
+  }
+}
+ 
+@media (max-width: 480px) {
+  #logo{
+    bottom: 40px;
+    left:15px;
+  }
+}
