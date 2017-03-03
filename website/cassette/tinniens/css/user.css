@@ -1,0 +1,282 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 100%/1.5 "futura-pt-condensed", sans-serif;
+  font-weight:900;
+  background-color:#EB5B13;
+  color:#231F20;
+  padding:0;
+  margin:0;
+}
+
+h1, h2, h3{
+  font-family:"futura-pt-condensed", sans-serif;
+  font-size:2.4em;
+  font-style:normal;
+  font-weight:900;
+  line-height:.875;
+  margin:0;
+  padding:0;
+}
+
+h1 a:link, h1 a:visited{
+  text-decoration:none;
+  color:#231F20;
+}
+
+h1 a span, h2 a span{
+  border:1px solid #231F20;
+  color:#231F20;
+  padding:.2em .4em .2em .4em;
+}
+
+h1 a span:hover, h2 a span:hover{
+  background-color:#231F20;
+  color:#F7F7F7;
+}
+
+h2 a.sold-out span:hover{
+  border:1px solid #231F20;
+  color:#231F20;
+  background-color:transparent;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+.geographic-north-cassette{
+  padding-top:4em;
+  padding-bottom:4em;
+}
+
+.stream{
+  padding-bottom:6em;
+}
+
+.stream h1{
+  padding-bottom:.5em;
+}
+
+.download{
+  padding-bottom:12em;
+}
+
+#logo{
+  position:relative;
+  height:4em;
+  width:6em;
+}
+
+.gn15{
+  padding-bottom:4em;
+}
+
+.gn15 h1{
+  margin-bottom:.25em;
+}
+
+.gn15 h1 span{
+  letter-spacing:-2px;
+}
+
+#logo #circle1 {
+  position:absolute;
+  top:0;
+  left:0;
+  width:4em;
+  height:4em;
+  background:#231F20;
+  -moz-border-radius:2em;
+  -webkit-border-radius:2em;
+  border-radius:2em;
+  clip:rect(0,2em,2em,0);
+}
+
+#logo #circle2 {
+  position:absolute;
+  top:0;
+  left:0;
+  width:4em;
+  height:4em;
+  background:#231F20;
+  -moz-border-radius:2em;
+  -webkit-border-radius:2em;
+  border-radius:2em;
+  clip:rect(0,2em,2em,0);
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -webkit-transform:rotate(180deg); /* Safari and Chrome */
+}
+
+#logo #circle3 {
+  position:absolute;
+  top:0;
+  left:0;
+  width:4em;
+  height:4em;
+  background:#231F20;
+  -moz-border-radius:2em;
+  -webkit-border-radius:2em;
+  border-radius:2em;
+  clip:rect(0,2em,2em,0);
+  transform:rotate(-90deg);
+  -ms-transform:rotate(-90deg); /* IE 9 */
+  -webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+
+/*#logo #triangle-bottomleft {
+  position:absolute;
+  top:0;
+  left:2em;
+  width:0;
+  height:0;
+  border-bottom:2em solid #ABDBCA;
+  border-right:2em solid transparent;
+  z-index:10;
+}*/
+
+#logo #triangle-topright-one {
+  position:absolute;
+  top:0;
+  left:2em;
+  width:0;
+  height:0;
+  border-top:2em solid #231F20;
+  border-left:2em solid transparent;
+  z-index:10;
+}
+
+#logo #triangle-topright-two {
+  position:absolute;
+  top:0;
+  left:4em;
+  width:0;
+  height:0;
+  border-top:2em solid #231F20;
+  border-left:2em solid transparent;
+  z-index:10;
+}
+
+#logo #triangle-topright-three {
+  position:absolute;
+  top:2em;
+  left:4em;
+  width:0;
+  height:0;
+  border-top:2em solid #231F20;
+  border-left:2em solid transparent;
+  z-index:10;
+}
+
+#logo #triangle-topright-four {
+  position:absolute;
+  top:2em;
+  left:2em;
+  width:0;
+  height:0;
+  border-top:2em solid #231F20;
+  border-left:2em solid transparent;
+  z-index:10;
+}
+
+.tinniens{
+  padding-top:22em;
+  padding-bottom:6em;
+}
+
+.buy-cassette-5 h2:first-child{
+  margin-bottom:1em;
+}
+
+/*.buy-cassette-5 h2:last-child{
+  font-size:8em;
+}*/
+
+.buy-cassette-5 h2 sup{
+  color:#231F20;
+  position: relative;
+  top: 5px;
+  font-size: 50%;
+  vertical-align: super;
+}
+
+.dub-guns{
+  padding-top:8em;
+  padding-bottom:45em;
+}
+
+.structure-vs-chaos-music{
+  padding-bottom:4em;
+}
+
+.structure-vs-chaos-music h3 span{
+  letter-spacing:-2px;
+}
+
+.aaron-snow{
+  padding-bottom:4em;
+}
+
+.daron-gardner{
+  padding-bottom:20em;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+@media (max-width: 767px) {
+
+/*}
+ 
+@media (max-width: 480px) {*/
+  body {
+    padding:0;
+    margin:0;
+    font-size:1.875em;
+  }
+
+  h1, h2, h3{
+    text-align:center;
+  }
+
+  h1 a span, h2 a span{
+    border:1px solid #231F20;
+    color:#231F20;
+    padding:.2em 0 .2em 0;
+    display:block;
+    width:100%;
+  }
+
+  .geographic-north-cassette{
+    padding-top:4em;
+    padding-bottom:4em;
+  }
+
+ .stream, .download, .gn15, .tinniens, .buy-cassette-5, .dub-guns, .structure-vs-chaos-music, .aaron-snow, .daron-gardner{
+    padding-top:0;
+    padding-bottom:4em;
+    margin:0;
+  }
+
+  #logo{
+    margin:0 auto 4em auto;
+  }
+
+  .gn15{
+    text-align:center;
+  }
+
+  .gn15 img{
+    margin:0 auto;
+  }
+}
