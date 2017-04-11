@@ -1,0 +1,179 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 100%/1.5 'futura-pt', Georgia, serif;
+  font-weight:500;
+  font-style:normal;
+  background-color:#FFFFFF;
+  color:#000000;
+  padding:0;
+  margin:0;
+}
+
+html, body{
+  height:100%;
+}
+
+header{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+footer{
+  padding-top:30px;
+  padding-bottom:30px; 
+}
+
+p{
+  font-family:'futura-pt', Georgia, serif;
+  font-size:1.6em;
+  font-style:normal;
+  font-weight:500;
+  line-height:1.5;
+  margin:0 0 15px 0;
+  padding:0;
+}
+
+h1{
+  padding:0 0 30px 0;
+  margin:0;
+  font-weight:700;
+  font-size:6em;
+}
+
+h2{
+  padding:30px 0 15px 0;
+  margin:0;
+  font-weight:700;
+  font-size:3em;
+}
+
+ul{
+  padding:0 0 30px 0;
+  margin:0;
+  list-style:none;
+}
+
+ul li{
+  font-size:1.6em;
+  line-height:1.5;
+}
+
+footer ul{
+  padding:0;
+}
+
+footer ul li{
+  display:inline;
+  padding-right:15px;
+}
+
+footer ul li:last-child{
+  padding:0;
+}
+
+.tracklist{
+  padding:0 0 30px 0;
+}
+
+.lightbox-container{
+  padding:0 0 30px 0;
+  overflow:auto;
+}
+
+a:link, a:active, a:visited{
+  color:#000000;
+}
+
+a:hover{
+  color:#00FF85;
+  text-decoration:none;
+}
+
+#logo{
+  fill:#000000;
+  width:50%;
+}
+
+#logo:hover{
+  fill:#00FF85;
+}
+
+.lightbox-container a:hover{
+  opacity:.5;
+}
+
+/* Responsive Embed */
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  p{
+    font-family:'futura-pt', Georgia, serif;
+    font-size:1.8em;
+    font-style:normal;
+    font-weight:500;
+    line-height:1.5;
+    margin:0 0 15px 0;
+    padding:0;
+  }
+  ul li{
+    font-size:1.8em;
+    line-height:1.5;
+  }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+@media (max-width: 767px) {
+  body {
+    font-size:125%;
+  }
+  header{
+    background-color:#000000;
+    margin-bottom:30px;
+  }
+  .logo{
+    text-align:center;
+  }
+  #logo{
+    width:15%;
+    fill:#FFFFFF;
+  }
+  h1{
+    font-size:4em;
+  }
+  #main p:last-child{
+    margin-bottom:30px;
+  }
+  footer{
+    margin-top:30px;
+    background-color:#000000;
+    color:#FFFFFF;
+    text-align:center;
+  }
+  footer p{
+    text-align:center;
+  }
+  footer ul{
+    text-align:center;
+  }
+  footer ul li{
+    font-size:2.4em;
+  }
+  footer ul li i{
+    color:#FFFFFF;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .lightbox-container{
+    padding:0 15px 30px 15px;
+  }
+}
