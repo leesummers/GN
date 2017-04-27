@@ -1,0 +1,170 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 100%/1.5 'Druk Wide Web', Arial, sans-serif;
+  font-weight:800;
+  font-style:   normal;
+  font-stretch: normal;
+  background-color:#202e7a;
+  color:#FFFFFF;
+  padding:0;
+  margin:0;
+}
+
+/*html, body{
+  height:100%;
+}*/
+
+html,body,.container {
+    height:100%;
+}
+.container {
+    display:table;
+    width: 100%;
+    /*margin-top: -50px;
+    padding: 50px 0 0 0;*/ /*set left/right padding according to needs*/
+    box-sizing: border-box;
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url('../fonts/DrukWide-Heavy-Web.eot');
+  src: url('../fonts/DrukWide-Heavy-Web.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DrukWide-Heavy-Web.woff2') format('woff2'),
+       url('../fonts/DrukWide-Heavy-Web.woff') format('woff');
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DrukWide-Heavy-Web {
+  font-family: 'Druk Wide Web';
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+p{
+  font-size:2.4em;
+  line-height:1;
+  margin:0;
+  padding:0;
+  display:block;
+}
+
+p a:link, p a:visited{
+  color:#FFFFFF;
+  text-decoration:none;
+  display:block;
+  border:1px solid #FFFFFF;
+  padding:.5em 0 .5em 0;
+}
+
+p a:hover{
+  background-color:#FFFFFF;
+  color:#202e7a;
+  border:1px solid #FFFFFF;
+}
+
+p a:active{
+  background-color:#e92435;
+  color:#202e7a;
+  border:1px solid #e92435;
+}
+
+.link-padding{
+  padding:0 30px 0 30px;
+}
+
+.top{
+  position:absolute;
+  top:20px;
+}
+
+.vertical-center{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-center{
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom{
+  position:absolute;
+  bottom:20px;
+}
+
+.album{
+  color:rgba(255,255,255,.5);
+}
+
+#logo{
+  width:25px;
+  position:relative;
+  margin:0 auto;
+}
+
+.gn-logo{
+  fill:#FFFFFF;
+  -webkit-transition: fill .4s ease-in;
+  -moz-transition: fill .4s ease-in;
+  -o-transition: fill .4s ease-in;
+  -ms-transition: fill .4s ease-in;
+  transition: fill .4s ease-in;
+}
+
+.quote-space{
+  visibility:hidden;
+}
+
+.letter-spacing{
+  letter-spacing:-2px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1000px) { 
+  body{
+    font-size:75%;
+  }
+}
+ 
+@media (max-width: 767px) {
+  body{
+    margin-top:30px;
+    font-size:100%;
+  }
+  p{
+    margin-bottom:45px;
+  }
+  .link-padding{
+    padding:0;
+  }
+  #logo{
+    padding-bottom:45px;
+  }
+}
+ 
+@media (max-width: 480px) {
+
+}
