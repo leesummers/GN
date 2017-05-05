@@ -1,0 +1,235 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 100%/1.5 'Canela Web', Georgia, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+/*html, body{
+  height:100%;
+}*/
+
+html,body,.container {
+    height:100%;
+}
+.container {
+    display:table;
+    width: 100%;
+    /*margin-top: -50px;
+    padding: 50px 0 0 0;*/ /*set left/right padding according to needs*/
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+
+@font-face {
+  font-family: 'Canela Web';
+  src: url('../fonts/Canela-RegularItalic-Web.eot');
+  src: url('../fonts/Canela-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Canela-RegularItalic-Web.woff2') format('woff2'),
+       url('../fonts/Canela-RegularItalic-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Canela-RegularItalic-Web {
+  font-family: 'Canela Web';
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Canela Web';
+  src: url('../fonts/Canela-Regular-Web.eot');
+  src: url('../fonts/Canela-Regular-Web.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Canela-Regular-Web.woff2') format('woff2'),
+       url('../fonts/Canela-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Canela-Regular-Web {
+  font-family: 'Canela Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+h1{
+  font-size: 3.4em;
+  line-height: 1.2;
+  font-weight: 400;
+  padding: 0;
+  margin: 2em 0 1em 0;
+}
+
+p{
+  font-size: 1.8em;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+.copyright{
+  font-size:3em;
+}
+
+a:link, a:visited{
+  color:#ee4423;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+a.btnlink:link, a.btnlink:visited{
+  font-size:1.5em;
+  line-height:1;
+  color:#FFFFFF;
+  text-decoration:none;
+  display:block;
+  border:1px solid #000000;
+  background-color:#ee4423;
+  padding:.5em;
+}
+
+a.btnlink:hover{
+  background-color:#FFFFFF;
+  color:#ee4423;
+  border:1px solid #ee4423;
+}
+
+a.btnlink:active{
+  background-color:#ee4423;
+  color:#FFFFFF;
+  border:1px solid #ee4423;
+}
+
+ul{
+  font-size:2em;
+  padding: 0;
+  margin: 0 0 .75em 0;
+  list-style:none;
+  font-style:italic;
+}
+
+ul li{
+  line-height:1.25;
+}
+
+#photos{
+  border-left:1px solid #000000;
+}
+
+
+.link-padding{
+  padding:0 30px 0 30px;
+}
+
+.top{
+  position:absolute;
+  top:20px;
+}
+
+.vertical-center{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-center{
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom{
+  position:absolute;
+  bottom:20px;
+}
+
+.album{
+  color:rgba(255,255,255,.5);
+}
+
+#logo{
+  width:30px;
+  position:relative;
+  margin:1em 0 1em 0;
+}
+
+.gn-logo{
+  fill:#000000;
+  -webkit-transition: fill .4s ease-in;
+  -moz-transition: fill .4s ease-in;
+  -o-transition: fill .4s ease-in;
+  -ms-transition: fill .4s ease-in;
+  transition: fill .4s ease-in;
+}
+
+.quote-space{
+  visibility:hidden;
+}
+
+.letter-spacing{
+  letter-spacing:-2px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1000px) { 
+  body{
+    font-size:75%;
+  }
+}
+ 
+@media (max-width: 767px) {
+  body{
+    /*margin-top:30px;*/
+    font-size:100%;
+  }
+  h1{
+    margin:1em 0 1em 0;
+  }
+  #photos2{
+    border:1px solid #000000;
+    margin:50px 0 50px 0;
+  }
+  /*p{
+    margin-bottom:45px;
+  }
+  .link-padding{
+    padding:0;
+  }
+  #logo{
+    padding-bottom:45px;
+  }*/
+}
+ 
+@media (max-width: 480px) {
+}
