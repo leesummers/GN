@@ -150,11 +150,6 @@ p a:hover, p a:active{
 
 .gn-logo{
   fill:#FFFFFF;
-  -webkit-transition: fill .4s ease-in;
-  -moz-transition: fill .4s ease-in;
-  -o-transition: fill .4s ease-in;
-  -ms-transition: fill .4s ease-in;
-  transition: fill .4s ease-in;
 }
 
 .quote-space{
