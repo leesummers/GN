@@ -1,0 +1,216 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: normal 100%/1.5 'Helvetica Neue LT W01_55 Roman', Helvetica, Georgia, serif;
+  font-weight:normal;
+  font-style:normal;
+  font-stretch:normal;
+  background-color:#ECBAC3;
+  color:#FFFFFF;
+  padding:0;
+  margin:0;
+}
+
+html,body,.container {
+    height:100%;
+}
+.container {
+    display:table;
+    width:100%;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.row {
+    height:100%;
+    display:table-row;
+}
+
+.row .no-float {
+  display:table-cell;
+  float:none;
+  padding:0;
+}
+
+h1{
+  font-size:5.2em;
+  line-height:.9;
+  font-weight:normal;
+  margin:0;
+  padding:0;
+}
+
+h2{
+  font-size:5.2em;
+  line-height:.9;
+  font-weight:normal;
+  margin:0 0 0 0;
+  padding:0;
+}
+
+h3{
+  font-size:5.2em;
+  line-height:1;
+  font-weight:normal;
+  margin:0 0 40px 0;
+  padding:0;
+}
+
+h3 a:link, h3 a:visited{
+  color:#FFFFFF;
+  text-decoration:none;
+  display: inline-block;
+  line-height: .9;
+  border-bottom: 2px solid #ed2459;
+}
+
+h3 a:hover{
+  color:#ed2459;
+  border-bottom: 0px;
+}
+
+h3 a:active{
+  color:#ed2459;
+  border-bottom: 0px;
+}
+
+p{
+  font-size:3em;
+  line-height:1;
+  margin:0;
+  padding:0;
+}
+
+p a:link, p a:visited{
+  color:#FFFFFF;
+  text-decoration:underline;
+}
+
+p a:hover, p a:active{
+  text-decoration:none;
+}
+
+.link-padding{
+  padding:0 30px 0 30px;
+}
+
+.top{
+  position:absolute;
+  top:40px;
+  z-index:100;
+  padding:0;
+}
+
+.topleft{
+  left:40px;
+}
+
+.bottom{
+  position:absolute;
+  bottom:40px;
+  padding:0;
+}
+
+.bottomleft{
+  left:40px;
+}
+
+.vertical-center{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-center{
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomright{
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  z-index:50;
+  padding:0;
+}
+
+.bottomright img{
+  float:right;
+  max-width:750px;
+}
+
+.logo{
+  width:30px;
+  position:relative;
+  margin:0 auto;
+}
+
+.gn-logo{
+  fill:#FFFFFF;
+}
+
+.quote-space{
+  visibility:hidden;
+}
+
+.letter-spacing{
+  letter-spacing:-2px;
+}
+
+.mobile-row-left{
+  display:block;
+  width:100%;
+}
+
+.padding-top{
+  padding-top:40px;
+}
+
+.full-width-row-1{
+  display:inline-block;
+  width:100%;
+  padding-top:40px;
+}
+
+.full-width-row-2{
+  display:block;
+  height:auto;
+}
+
+.full-width-row-3{
+  display:block;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) { 
+  p{
+    font-size:2.4em;
+  }
+}
+ 
+@media (max-width: 767px) {
+  body{
+    font-size:140%;
+  }
+  p{
+    padding:0 0 30px 0;
+  }
+  p:first-child{
+    padding:30px 0 0 0;
+  }
+  p:last-child{
+    padding:0 0 30px 0;
+  }
+}
+ 
+@media (max-width: 480px) {
+
+}
